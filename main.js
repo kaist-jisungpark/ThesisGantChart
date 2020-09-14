@@ -291,8 +291,8 @@
 	 * should be the same-ish as export in 'data/data.csv'
 	 * propending the url here with a heroku proxy to pull data from google sheets
 	 */
-	var csvURL = 'http://guarded-ocean-2049.herokuapp.com/https://docs.google.com/spreadsheet/pub?key=1IHocOhSxwA9XkO6rznmetSz_ATBIAPHgms4htOEd-tk&single=true&gid=0&output=csv';
-	
+// 	var csvURL = 'http://guarded-ocean-2049.herokuapp.com/https://docs.google.com/spreadsheet/pub?key=1IHocOhSxwA9XkO6rznmetSz_ATBIAPHgms4htOEd-tk&single=true&gid=0&output=csv';
+	var csvURL = 'http://guarded-ocean-2049.herokuapp.com/https://docs.google.com/spreadsheets/d/1xZj3FB13XPcWkuT3sBWSXaepMGciihtzY1I3JkNUSr0/edit?usp=sharing';
 
 	d3.csv(csvURL, function(csv) {
 		tidyData(csv);
