@@ -297,7 +297,7 @@
 	 * propending the url here with a heroku proxy to pull data from google sheets
 	 */
 
-var sheetID = "1j3bZ2lsOxnAL4TPYtmC8LKycEQTkwYlLQNidtPyk8U4";
+var sheetID = "1xZj3FB13XPcWkuT3sBWSXaepMGciihtzY1I3JkNUSr0";
 var sheetURL = "https://spreadsheets.google.com/feeds/cells/"+sheetID+"/1/public/values?alt=json";
 
   var loadData = function(){
